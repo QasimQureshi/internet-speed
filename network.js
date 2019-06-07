@@ -781,7 +781,7 @@ var HttpModule = (function (_EventDispatcher) {
         _defineDecoratedPropertyDescriptor(this, '_requestingOverridden', _instanceInitializers);
 
         this._extendDefaultSettings({
-            endpoint: 'http://speed-test.cfapps.io/network',
+            endpoint: 'https://bandwidth-tester.herokuapp.com/index.php',
             delay: 8000
         });
 
